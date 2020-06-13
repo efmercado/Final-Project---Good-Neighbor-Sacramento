@@ -1,0 +1,119 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+#main-map {
+  position: relative;
+  /* border: 1px solid black; */
+  height: 400px;
+  width: 100%;
+}
+
+#modal-map {
+  position: relative;
+  /* border: 1px solid black; */
+  height: 350px;
+  width: 100%;
+}
+
+@font-face {
+  font-family: sweetpurple;
+  src: url('fonts/sweet purple.ttf');
+}
+
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* text-shadow: 3px 3px grey; */
+}
+
+
+.description{
+  font-family: sweetpurple;
+}
+
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+
+.dark-red {
+  stroke:#CC0000;
+
+}
+
+.districts {
+  cursor: pointer;
+}
+
+/* CSS from the Leaflet-Choropleth documentation */
+.legend {
+  padding: 6px 8px;
+  font: 12px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #555;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend ul {
+  padding: 0;
+  margin: 0;
+  clear: both;
+  list-style-type: none;
+}
+
+.legend li {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+}
+
+.legend .min {
+  float: left;
+  padding-bottom: 5px;
+}
+
+.legend .max {
+  float: right;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tooltip {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  padding: 8px;
+  font: 12px sans-serif;
+  text-align: center;
+  color: white;
+  background: #CC0000;
+  border: 0;
+  border-radius: 10px;
+  z-index: 10000;
+}
+
+.img-thumbnail-xx {
+ width: 100%;
+}
+
+.ranking-neighborhood{
+  background-color: cadetblue;
+}
