@@ -9,6 +9,8 @@ import numpy as np
 from bson.json_util import dumps
 from pprint import pprint
 
+import house_pricing
+
 
 # Create an instance of our Flask app.
 app = Flask(__name__)
@@ -40,6 +42,8 @@ df = pd.read_csv("./static/data/sacramento_neighborhoods.csv")
 data_json = json.loads(df.to_json(orient='records'))
 db.districts_zip.insert_many(data_json)
 
+
+
 # Set route
 @app.route('/')
 def index():
@@ -63,6 +67,16 @@ def realestate_data():
     record = list(db.realestate.find())
 
     return dumps(record)
+
+@app.route('/realestate')
+def realestate():
+
+    # Run the scrape function
+    data = house_pricing.predict_house_value()
+
+
+    return dumps(data)
+    # return redirect("/")
 
 @app.route('/districts_zip')
 def districtsZip_data():

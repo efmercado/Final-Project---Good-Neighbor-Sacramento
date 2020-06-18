@@ -105,5 +105,39 @@ function modalContentChange(district){
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
       }
 
+
     });
+
+
+    d3.json("/realestate", function(data) {
+
+      // realEstate = data.filter(function(d){ return (uniqueZips.includes(d.postal_code))});
+
+      // var medListingPrice = d3.median(realEstate, function(d) { return d.median_listing_price; });
+      // medListingPrice = numberWithCommas(medListingPrice);
+      // document.getElementById("listingprice").innerHTML = `$ ${medListingPrice} `;
+      
+
+      // var avgDaysInMarket = d3.mean(realEstate, function(d) { return d.median_days_on_market; });
+      // avgDaysInMarket = avgDaysInMarket.toFixed(2);
+
+      function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      }
+
+      document.getElementById("listingprice").innerHTML = `$${numberWithCommas(data.toFixed(2))} `;
+
+      console.log(data);
+
+      
+
+      // document.getElementById("daysinmarket").innerHTML = 'hhihihi';
+
+      // function numberWithCommas(x) {
+      //   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      // }
+
+    });
+
+
 }
