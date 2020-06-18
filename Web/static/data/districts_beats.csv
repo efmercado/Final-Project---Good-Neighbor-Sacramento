@@ -1,21 +1,21 @@
-﻿district,district_name,beat,neighborhood
-1,Northwest,A,North Natomas
-1,Northwest,B,South Natomas
-1,Northwest,C,Northgate
-2,Northeast,A,Robla/Del Paso Heights
-2,Northeast,B,Hagginwood
-2,Northeast,C,Arden/Old North Sac
-3,Central,A,Downtown
-3,Central,B,Midtown
-3,Central,M,Midtown
-4,Southwest,A,Land Park
-4,Southwest,B,Sac Executive
-4,Southwest,C,Pocket
-5,South,A,Meadowview
-5,South,B,Parkway
-5,South,C,Valley Hi/North Laguna
-6,East,A,Oak Park
-6,East,B,Tahoe Park/Tallac Village
-6,East,C,South East/Glen Elder/Fruitridge
-6,East,D,Fab 40's
-6,East,E,College Town
+﻿district,district_name,beat,neighborhood,median_household_income,,,,
+1,Northwest,A,North Natomas,"49,375",,,,
+1,Northwest,B,South Natomas,"55,351",,,,
+1,Northwest,C,Northgate,"37,451",,,,
+2,Northeast,A,Robla/Del Paso Heights,"42,856",,,,
+2,Northeast,B,Hagginwood,"35,046",,,,
+2,Northeast,C,Arden/Old North Sac,"59,423",,,,
+3,Central,A,Downtown,"45,921",,,,
+3,Central,B,Midtown,"39,226",,,,
+3,Central,M,Midtown,"39,226",,,,
+4,Southwest,A,Land Park,"43,300",,,,
+4,Southwest,B,Sac Executive,"49,814",,,,
+4,Southwest,C,Pocket,"68,850",,,,
+5,South,A,Meadowview,"40,428",,,,
+5,South,B,Parkway,"40,600",,,,
+5,South,C,Valley Hi/North Laguna,"52,506",,,,
+6,East,A,Oak Park,"31,677",,,,
+6,East,B,Tahoe Park/Tallac Village,"49,165",,,,
+6,East,C,South East/Glen Elder/Fruitridge,"37,027",,,,
+6,East,D,Fab 40's,"83,464",,,,
+6,East,E,College Town,"34,534",,,,
