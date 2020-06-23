@@ -1,0 +1,498 @@
+name,price,beds,baths,square feet,beat
+Creekside Real Estate,437000,3,2.5,2252,1A
+Creekside Real Estate,394900,3,2.5,1697,1A
+Westlake Real Estate,418000,4,2.5,2002,1A
+Westlake Real Estate,225000,1,1.0,846,1A
+Westlake Real Estate,535000,4,3.0,2350,1A
+Westlake Real Estate,610000,3,2.5,2487,1A
+Westlake Real Estate,240000,1,1.0,1125,1A
+Westlake Real Estate,419000,4,3.0,2187,1A
+Natomas Park Real Estate,515000,5,3.0,2493,1A
+Natomas Park Real Estate,499990,5,3.5,2724,1A
+Natomas Park Real Estate,399990,3,2.5,1776,1A
+Natomas Park Real Estate,650000,4,3.0,3989,1A
+Natomas Park Real Estate,609000,4,3.5,2935,1A
+Natomas Park Real Estate,489000,4,3.0,2632,1A
+Natomas Park Real Estate,480000,3,2.0,2102,1A
+Natomas Park Real Estate,479900,4,2.5,2306,1A
+Natomas Park Real Estate,459000,4,3.0,2265,1A
+Natomas Park Real Estate,435000,3,2.5,1906,1A
+Natomas Park Real Estate,479900,4,2.0,2013,1A
+Natomas Park Real Estate,579995,4,2.0,3052,1A
+Regency Park Real Estate,429900,3,2.0,1557,1A
+Regency Park Real Estate,225000,1,1.0,763,1A
+Regency Park Real Estate,284950,3,3.0,1334,1A
+Regency Park Real Estate,218500,1,1.0,763,1A
+Regency Park Real Estate,389000,3,2.0,1492,1A
+Regency Park Real Estate,447900,5,2.0,1934,1A
+South Natomas Real Estate,650000,5,4.0,3802,1B
+South Natomas Real Estate,670000,4,2.5,2930,1B
+South Natomas Real Estate,460000,4,2.5,2063,1B
+South Natomas Real Estate,187800,2,1.0,956,1B
+South Natomas Real Estate,369900,3,2.5,1537,1B
+South Natomas Real Estate,415000,3,2.5,1763,1B
+South Natomas Real Estate,339500,3,2.5,1618,1B
+South Natomas Real Estate,385000,4,3.0,2320,1B
+South Natomas Real Estate,349999,3,2.0,1260,1B
+South Natomas Real Estate,335000,3,2.0,1511,1B
+South Natomas Real Estate,369000,3,2.5,1552,1B
+South Natomas Real Estate,420000,3,3.0,1985,1B
+South Natomas Real Estate,365000,3,2.0,1336,1B
+South Natomas Real Estate,339000,3,2.5,1285,1B
+South Natomas Real Estate,799900,5,3.0,3446,1B
+South Natomas Real Estate,410000,4,3.0,1920,1B
+South Natomas Real Estate,62000,0,0.0,1058,1B
+South Natomas Real Estate,499888,4,3.0,2258,1B
+South Natomas Real Estate,495000,3,2.0,2367,1B
+South Natomas Real Estate,355000,3,2.5,1359,1B
+Northgate Real Estate,385000,4,2.0,1390,1C
+Gardenland Real Estate,139000,0,0.0,0,1C
+Gardenland Real Estate,269000,2,1.0,768,1C
+Gardenland Real Estate,199000,2,1.0,714,1C
+Gardenland Real Estate,639000,3,3.0,1900,1C
+Gardenland Real Estate,649000,3,2.0,1148,1C
+Gardenland Real Estate,875000,0,0.0,0,1C
+River Gardens Real Estate,165000,3,1.5,1054,1C
+River Gardens Real Estate,179900,4,1.5,1276,1C
+River Gardens Real Estate,169000,3,1.5,1052,1C
+River Gardens Real Estate,545000,3,2.5,1859,1C
+Del Paso Heights Real Estate,199000,2,1.0,771,2A
+Del Paso Heights Real Estate,190000,2,1.0,827,2A
+Del Paso Heights Real Estate,382000,4,3.0,1804,2A
+Del Paso Heights Real Estate,265000,3,2.0,1113,2A
+Del Paso Heights Real Estate,219000,3,1.0,1012,2A
+Del Paso Heights Real Estate,445000,7,3.0,2428,2A
+Del Paso Heights Real Estate,219000,3,2.0,1000,2A
+Robla Real Estate,549000,4,3.0,2145,2A
+Robla Real Estate,389500,4,3.0,1855,2A
+Robla Real Estate,340000,3,2.5,1521,2A
+Robla Real Estate,159000,0,0.0,0,2A
+Robla Real Estate,287900,2,2.5,1181,2A
+Robla Real Estate,309000,2,1.5,1131,2A
+Robla Real Estate,279900,3,2.0,1564,2A
+Robla Real Estate,359000,3,2.0,1209,2A
+Robla Real Estate,150000,0,0.0,0,2A
+Robla Real Estate,443000,6,3.0,2207,2A
+Robla Real Estate,3500000,0,0.0,0,2A
+Robla Real Estate,319900,3,2.5,1670,2A
+Robla Real Estate,1285000,0,0.0,0,2A
+Robla Real Estate,289900,2,2.5,1181,2A
+Robla Real Estate,299900,3,2.5,1396,2A
+Robla Real Estate,382900,3,2.5,2136,2A
+Robla Real Estate,346900,3,2.5,1628,2A
+Robla Real Estate,329900,3,2.5,1408,2A
+Robla Real Estate,315900,3,2.5,1317,2A
+Glenwood Meadows Real Estate,94777,3,2.0,1220,2A
+Glenwood Meadows Real Estate,349900,4,2.5,1865,2A
+East del Paso Heights Real Estate,239900,3,1.0,1014,2A
+East del Paso Heights Real Estate,385500,4,2.0,1780,2A
+East del Paso Heights Real Estate,200000,2,1.0,900,2A
+East del Paso Heights Real Estate,270000,3,1.0,1058,2A
+East del Paso Heights Real Estate,275000,4,2.0,1352,2A
+East del Paso Heights Real Estate,349000,4,3.0,1808,2A
+East del Paso Heights Real Estate,165000,4,2.0,1560,2A
+East del Paso Heights Real Estate,349990,3,2.5,1882,2A
+East del Paso Heights Real Estate,125000,4,2.0,1894,2A
+East del Paso Heights Real Estate,149995,3,2.0,1710,2A
+East del Paso Heights Real Estate,429000,0,0.0,0,2A
+East del Paso Heights Real Estate,249000,2,2.0,1200,2A
+East del Paso Heights Real Estate,90000,0,0.0,0,2A
+East del Paso Heights Real Estate,99000,0,0.0,0,2A
+Hagginwood Real Estate,289900,4,2.0,1680,2B
+Hagginwood Real Estate,199000,0,0.0,0,2B
+Hagginwood Real Estate,195000,0,0.0,0,2B
+Hagginwood Real Estate,299000,3,2.0,1994,2B
+Hagginwood Real Estate,299900,2,2.0,888,2B
+Hagginwood Real Estate,270000,3,2.0,1796,2B
+Hagginwood Real Estate,319900,5,2.0,1978,2B
+Hagginwood Real Estate,59000,0,0.0,0,2B
+Hagginwood Real Estate,74500,0,0.0,0,2B
+South Hagginwood Real Estate,179000,2,1.0,811,2B
+South Hagginwood Real Estate,170000,0,0.0,0,2B
+South Hagginwood Real Estate,325000,2,1.0,1083,2B
+South Hagginwood Real Estate,99900,0,0.0,0,2B
+South Hagginwood Real Estate,219900,2,1.0,768,2B
+South Hagginwood Real Estate,55000,0,0.0,0,2B
+South Hagginwood Real Estate,229000,2,1.0,900,2B
+South Hagginwood Real Estate,50000,0,0.0,0,2B
+South Hagginwood Real Estate,50000,0,0.0,0,2B
+South Hagginwood Real Estate,80000,0,0.0,0,2B
+Johnson Heights Real Estate,199000,0,0.0,0,2B
+Noralto Real Estate,279000,3,1.0,1332,2B
+Ben Ali Real Estate,259500,3,1.0,972,2C
+Ben Ali Real Estate,309950,4,2.0,1800,2C
+Ben Ali Real Estate,260000,2,2.0,1056,2C
+Ben Ali Real Estate,260000,3,2.0,1056,2C
+Ben Ali Real Estate,960000,4,4.0,2400,2C
+Ben Ali Real Estate,58000,0,0.0,0,2C
+Old North Sacramento Real Estate,299000,3,1.0,1048,2C
+Old North Sacramento Real Estate,255000,3,1.0,1191,2C
+Old North Sacramento Real Estate,350000,4,2.0,1628,2C
+Old North Sacramento Real Estate,155000,1,1.0,336,2C
+Old North Sacramento Real Estate,264000,3,1.0,1195,2C
+Old North Sacramento Real Estate,299000,3,2.0,1100,2C
+Old North Sacramento Real Estate,120000,0,0.0,0,2C
+Old North Sacramento Real Estate,130000,0,0.0,0,2C
+Woodlake Real Estate,529900,2,2.5,1718,2C
+Woodlake Real Estate,575000,4,4.0,2497,2C
+Woodlake Real Estate,414900,2,2.0,1038,2C
+Swanston Estates Real Estate,329900,4,2.0,1400,2C
+Swanston Estates Real Estate,419000,5,4.0,2711,2C
+Swanston Estates Real Estate,323000,3,2.0,1518,2C
+Swanston Estates Real Estate,279900,4,2.0,1121,2C
+Alkali Flat Real Estate,1399900,6,5.0,5530,3A
+Alkali Flat Real Estate,675000,3,3.5,1790,3A
+Alkali Flat Real Estate,799000,4,4.0,2200,3A
+Mansion Flats Real Estate,784500,6,3.0,2556,3A
+Mansion Flats Real Estate,549990,2,2.5,1521,3A
+Mansion Flats Real Estate,599990,2,2.5,1521,3A
+Mansion Flats Real Estate,629990,2,4.0,1828,3A
+Mansion Flats Real Estate,559990,2,2.5,1521,3A
+Mansion Flats Real Estate,569900,2,2.5,1618,3A
+Mansion Flats Real Estate,1650000,8,7.0,3700,3A
+Mansion Flats Real Estate,599990,2,2.5,0,3A
+Mansion Flats Real Estate,650000,0,0.0,0,3A
+Mansion Flats Real Estate,589990,2,4.0,1618,3A
+Mansion Flats Real Estate,614900,3,2.5,1704,3A
+Mansion Flats Real Estate,549990,2,2.5,1521,3A
+Mansion Flats Real Estate,629990,2,4.0,1555,3A
+Mansion Flats Real Estate,599990,2,2.5,1521,3A
+Richmond Grove Real Estate,849000,2,2.0,1372,3A
+Richmond Grove Real Estate,1195000,4,4.5,3284,3A
+Southside Park Real Estate,835000,6,2.0,2600,3A
+Southside Park Real Estate,598000,4,2.0,2040,3A
+Southside Park Real Estate,809000,3,2.5,1696,3A
+Southside Park Real Estate,525000,3,2.5,1485,3A
+Southside Park Real Estate,769900,5,3.0,2322,3A
+Southside Park Real Estate,499900,3,2.5,1485,3A
+Southside Park Real Estate,630000,4,3.0,2200,3A
+Midtown Real Estate,769900,3,3.0,1906,3B
+Midtown Real Estate,559000,2,2.0,1057,3B
+Midtown Real Estate,675000,2,2.5,1490,3B
+Midtown Real Estate,699900,3,2.0,2448,3B
+Midtown Real Estate,1229000,8,4.0,3600,3B
+Midtown Real Estate,479000,1,1.0,942,3B
+Midtown Real Estate,390000,2,2.0,955,3B
+Midtown Real Estate,895000,3,3.0,3123,3B
+Midtown Real Estate,850000,4,3.5,2075,3B
+Midtown Real Estate,529000,1,1.0,942,3B
+Midtown Real Estate,750000,1,1.5,1219,3B
+Midtown Real Estate,442500,1,1.0,662,3B
+Midtown Real Estate,899000,4,4.0,2400,3B
+Midtown Real Estate,764500,1,2.0,1044,3B
+Midtown Real Estate,1099000,4,4.0,2600,3B
+Newton Booth Real Estate,849900,2,2.5,2125,3B
+Newton Booth Real Estate,545000,3,2.5,1268,3B
+Newton Booth Real Estate,545900,3,2.5,1268,3B
+Newton Booth Real Estate,830000,3,3.0,1950,3B
+Newton Booth Real Estate,995000,2,4.0,2830,3B
+Newton Booth Real Estate,545000,2,2.5,1283,3B
+Newton Booth Real Estate,549900,2,2.0,1320,3B
+Newton Booth Real Estate,635000,4,3.0,1847,3B
+Newton Booth Real Estate,540000,0,0.0,0,3B
+Newton Booth Real Estate,749999,3,3.0,2652,3B
+Newton Booth Real Estate,550000,2,3.5,1742,3B
+Boulevard Park Real Estate,1395000,4,5.0,4732,3B
+Boulevard Park Real Estate,999000,4,3.0,3289,3B
+Boulevard Park Real Estate,674000,3,2.5,1638,3B
+Boulevard Park Real Estate,519000,2,2.0,1118,3B
+Boulevard Park Real Estate,1395000,4,2.5,3746,3B
+Boulevard Park Real Estate,725000,4,3.0,2562,3B
+Boulevard Park Real Estate,735000,4,2.0,2655,3B
+Marshall School Real Estate,1099000,4,4.0,2600,3B
+New Era Park Real Estate,800000,3,2.0,1997,3B
+New Era Park Real Estate,550000,2,2.0,775,3B
+New Era Park Real Estate,700000,2,2.0,1188,3B
+Downtown Sacramento Real Estate,590000,2,2.0,1261,3M
+Downtown Sacramento Real Estate,975000,1,1.0,797,3M
+Downtown Sacramento Real Estate,2075000,2,2.5,1734,3M
+Downtown Sacramento Real Estate,347000,2,1.0,950,3M
+Downtown Sacramento Real Estate,374750,2,2.0,840,3M
+Downtown Sacramento Real Estate,560000,2,2.0,1261,3M
+Downtown Sacramento Real Estate,465000,2,2.0,1261,3M
+Land Park Real Estate,950000,3,2.0,2108,4A
+Land Park Real Estate,565000,3,1.0,1194,4A
+Land Park Real Estate,825000,3,2.0,1821,4A
+Land Park Real Estate,799000,3,2.0,1637,4A
+Land Park Real Estate,550000,3,1.5,1446,4A
+Land Park Real Estate,699000,3,3.0,1934,4A
+Land Park Real Estate,779000,3,2.0,1600,4A
+Land Park Real Estate,849900,4,3.0,2246,4A
+Land Park Real Estate,684000,3,3.0,1323,4A
+Upper Land Park Real Estate,480000,3,2.0,1098,4A
+Upper Land Park Real Estate,299900,1,1.0,553,4A
+Upper Land Park Real Estate,370000,2,1.0,905,4A
+Upper Land Park Real Estate,465000,3,1.5,1187,4A
+Upper Land Park Real Estate,499900,3,1.0,1254,4A
+Upper Land Park Real Estate,1199000,4,3.5,2958,4A
+Upper Land Park Real Estate,491001,3,2.5,1374,4A
+Upper Land Park Real Estate,627000,3,2.0,1445,4A
+Upper Land Park Real Estate,613000,3,3.0,1503,4A
+Upper Land Park Real Estate,422000,2,2.0,1156,4A
+Upper Land Park Real Estate,481000,3,2.5,1374,4A
+Upper Land Park Real Estate,388000,2,2.0,1042,4A
+Upper Land Park Real Estate,383000,2,2.0,927,4A
+Upper Land Park Real Estate,333000,1,1.0,801,4A
+Upper Land Park Real Estate,425000,2,2.0,1110,4A
+Upper Land Park Real Estate,427000,2,2.0,1045,4A
+Upper Land Park Real Estate,420000,2,2.0,1014,4A
+Upper Land Park Real Estate,288000,1,1.0,626,4A
+Little Pocket Real Estate,699500,3,2.0,2221,4A
+Curtis Park Real Estate,1250000,4,4.0,3155,4A
+Curtis Park Real Estate,579000,3,1.0,1372,4A
+Curtis Park Real Estate,575000,2,2.0,1154,4A
+Curtis Park Real Estate,785000,4,2.0,1892,4A
+Curtis Park Real Estate,579000,2,2.5,1720,4A
+Curtis Park Real Estate,499000,3,2.5,1187,4A
+Curtis Park Real Estate,739000,4,3.5,2040,4A
+Curtis Park Real Estate,375000,1,1.0,576,4A
+Curtis Park Real Estate,750000,3,3.0,1929,4A
+Curtis Park Real Estate,939000,4,4.0,2360,4A
+Curtis Park Real Estate,520000,3,1.0,1386,4A
+Curtis Park Real Estate,595000,3,2.0,1272,4A
+Curtis Park Real Estate,673000,2,2.0,1548,4A
+Curtis Park Real Estate,900000,6,7.0,3420,4A
+South Land Park Real Estate,624900,3,2.0,2074,4A
+South Land Park Real Estate,874900,3,3.0,2176,4A
+South Land Park Real Estate,549950,3,2.0,1498,4A
+South Land Park Real Estate,629890,3,2.0,1900,4A
+South Land Park Real Estate,624900,4,3.5,2080,4A
+South Land Park Real Estate,475000,4,2.5,1890,4A
+South Land Park Real Estate,735000,3,2.5,2119,4A
+South Land Park Real Estate,479000,3,2.0,1433,4A
+South Land Park Real Estate,897000,4,2.0,2324,4A
+South Land Park Real Estate,499000,3,2.0,1538,4A
+South Land Park Real Estate,775000,3,3.0,2046,4A
+South Land Park Real Estate,679900,3,2.0,1898,4A
+South Land Park Real Estate,375000,3,2.5,1943,4A
+Hollywood Park Real Estate,535720,5,4.0,1752,4B
+Hollywood Park Real Estate,405000,2,1.0,945,4B
+North City Farms Real Estate,300000,3,1.0,1143,4B
+North City Farms Real Estate,322000,2,2.0,1080,4B
+North City Farms Real Estate,99000,0,0.0,0,4B
+North City Farms Real Estate,500000,0,0.0,0,4B
+North City Farms Real Estate,200000,0,0.0,0,4B
+South City Farms Real Estate,185000,2,1.0,729,4B
+Brentwood Real Estate,349000,4,2.0,1638,4B
+Brentwood Real Estate,300000,3,1.0,1410,4B
+Golf Course Terrace Real Estate,278226,3,1.5,1305,4B
+Golf Course Terrace Real Estate,339750,3,2.0,1595,4B
+Golf Course Terrace Real Estate,415000,3,2.0,2085,4B
+Golf Course Terrace Real Estate,385000,4,3.0,1595,4B
+Golf Course Terrace Real Estate,290000,3,2.0,1260,4B
+Woodbine Real Estate,397000,4,3.0,1804,4B
+Woodbine Real Estate,425000,6,2.0,1818,4B
+Pocket Real Estate,229000,2,1.0,932,4C
+Pocket Real Estate,509000,4,3.0,2084,4C
+Pocket Real Estate,419000,3,2.0,1610,4C
+Pocket Real Estate,530000,4,2.5,2297,4C
+Pocket Real Estate,627800,4,3.0,2253,4C
+Pocket Real Estate,459950,3,3.0,1867,4C
+Pocket Real Estate,275000,2,1.5,1266,4C
+Pocket Real Estate,829000,4,3.0,4042,4C
+Pocket Real Estate,939900,4,3.5,3613,4C
+Pocket Real Estate,469000,3,2.0,1593,4C
+Pocket Real Estate,589000,4,2.5,2233,4C
+Pocket Real Estate,443500,3,2.0,1795,4C
+Pocket Real Estate,628000,4,3.0,3151,4C
+Pocket Real Estate,595000,3,2.0,2246,4C
+Pocket Real Estate,565000,4,3.0,2504,4C
+Pocket Real Estate,544900,3,2.0,1706,4C
+Pocket Real Estate,890000,3,3.0,3100,4C
+Pocket Real Estate,869000,4,3.0,3113,4C
+Pocket Real Estate,649900,4,3.0,2570,4C
+Pocket Real Estate,499900,4,3.0,1825,4C
+Meadowview Real Estate,289500,3,2.0,1159,5A
+Meadowview Real Estate,372000,3,2.0,1638,5A
+Meadowview Real Estate,309000,4,3.0,1500,5A
+Meadowview Real Estate,328000,3,2.0,1251,5A
+Meadowview Real Estate,349000,4,2.0,1456,5A
+Meadowview Real Estate,250000,2,1.0,958,5A
+Meadowview Real Estate,299900,3,2.0,1312,5A
+Meadowview Real Estate,332000,3,2.5,1258,5A
+Meadowview Real Estate,295000,4,2.0,1465,5A
+Meadowview Real Estate,320000,3,2.0,1040,5A
+Meadowview Real Estate,329500,4,2.0,1604,5A
+Meadowview Real Estate,1750000,0,0.0,0,5A
+Meadowview Real Estate,316000,3,1.5,1040,5A
+Meadowview Real Estate,309900,4,2.0,1550,5A
+Meadowview Real Estate,449900,5,3.0,2650,5A
+Meadowview Real Estate,322900,4,2.0,1168,5A
+Meadowview Real Estate,270000,0,0.0,0,5A
+Meadowview Real Estate,348000,3,2.0,1536,5A
+Meadowview Real Estate,374950,4,2.0,0,5A
+Meadowview Real Estate,358888,4,2.0,1890,5A
+Parkway Real Estate,299000,4,2.0,1521,5B
+Parkway Real Estate,349900,3,2.0,1447,5B
+Parkway Real Estate,300000,3,2.0,1148,5B
+Parkway Real Estate,229000,3,2.0,1386,5B
+Parkway Real Estate,119888,2,1.0,840,5B
+Parkway Real Estate,319000,4,2.0,1496,5B
+Parkway Real Estate,279900,2,2.0,1132,5B
+Parkway Real Estate,299000,4,2.0,1422,5B
+Parkway Real Estate,290000,4,2.0,1521,5B
+Parkway Real Estate,329900,3,2.0,1456,5B
+Parkway Real Estate,125000,3,3.0,1920,5B
+Parkway Real Estate,209000,3,1.5,1309,5B
+Parkway Real Estate,118989,3,2.0,0,5B
+Parkway Real Estate,845000,0,0.0,0,5B
+Parkway Real Estate,75000,2,2.0,960,5B
+Parkway Real Estate,170000,2,1.0,1034,5B
+Parkway Real Estate,120000,2,1.0,896,5B
+Parkway Real Estate,250000,0,0.0,0,5B
+Parkway Real Estate,115000,2,2.0,1800,5B
+Parkway Real Estate,200000,2,1.5,1116,5B
+Valley Highway-North Laguna Real Estate,279900,4,2.0,1820,5C
+Valley Highway-North Laguna Real Estate,319500,3,2.5,1432,5C
+Valley Highway-North Laguna Real Estate,284000,3,2.0,1316,5C
+Valley Highway-North Laguna Real Estate,323000,3,2.0,1549,5C
+Valley Highway-North Laguna Real Estate,399000,4,2.0,1852,5C
+Valley Highway-North Laguna Real Estate,142500,2,1.0,906,5C
+Valley Highway-North Laguna Real Estate,449950,5,3.0,2072,5C
+Valley Highway-North Laguna Real Estate,109987,1,1.0,594,5C
+Valley Highway-North Laguna Real Estate,189900,3,1.0,1218,5C
+Valley Highway-North Laguna Real Estate,321000,3,2.5,1432,5C
+Valley Highway-North Laguna Real Estate,127000,1,1.0,704,5C
+Valley Highway-North Laguna Real Estate,172000,2,1.0,906,5C
+Valley Highway-North Laguna Real Estate,418000,3,2.5,1744,5C
+Valley Highway-North Laguna Real Estate,386000,3,2.5,1636,5C
+Valley Highway-North Laguna Real Estate,317000,2,2.0,1603,5C
+Valley Highway-North Laguna Real Estate,250000,3,2.5,1412,5C
+Valley Highway-North Laguna Real Estate,389990,3,2.5,1576,5C
+Valley Highway-North Laguna Real Estate,540420,3,3.0,2222,5C
+Valley Highway-North Laguna Real Estate,325000,3,2.0,1281,5C
+Valley Highway-North Laguna Real Estate,349000,5,3.0,2116,5C
+South Oak Park Real Estate,234900,3,1.0,874,6A
+South Oak Park Real Estate,239900,4,2.0,962,6A
+South Oak Park Real Estate,250000,3,1.0,864,6A
+South Oak Park Real Estate,419000,6,2.0,1617,6A
+South Oak Park Real Estate,279000,3,2.0,901,6A
+South Oak Park Real Estate,95000,0,0.0,0,6A
+South Oak Park Real Estate,225000,2,1.0,717,6A
+South Oak Park Real Estate,285000,3,2.0,1158,6A
+South Oak Park Real Estate,469000,4,3.0,1706,6A
+South Oak Park Real Estate,324999,5,2.0,1403,6A
+South Oak Park Real Estate,525000,4,2.0,2025,6A
+South Oak Park Real Estate,75000,0,0.0,0,6A
+Central Oak Park Real Estate,239900,2,1.0,762,6A
+Central Oak Park Real Estate,355000,2,1.0,1107,6A
+Central Oak Park Real Estate,350000,2,2.0,1096,6A
+Central Oak Park Real Estate,275000,2,1.0,759,6A
+Central Oak Park Real Estate,269000,2,1.0,750,6A
+Central Oak Park Real Estate,399000,2,1.0,1080,6A
+Central Oak Park Real Estate,600000,2,1.0,2050,6A
+Central Oak Park Real Estate,289000,2,1.0,1012,6A
+Central Oak Park Real Estate,285000,3,1.0,1252,6A
+Central Oak Park Real Estate,240000,2,2.0,1031,6A
+Central Oak Park Real Estate,395000,3,1.0,1331,6A
+North Oak Park Real Estate,479900,2,2.0,1147,6A
+North Oak Park Real Estate,240000,2,1.0,948,6A
+North Oak Park Real Estate,345000,2,1.0,640,6A
+North Oak Park Real Estate,625000,4,2.0,1869,6A
+North Oak Park Real Estate,339000,2,1.0,863,6A
+North Oak Park Real Estate,394900,3,1.0,1129,6A
+North Oak Park Real Estate,474990,2,2.5,1216,6A
+North Oak Park Real Estate,590000,3,3.0,2094,6A
+North Oak Park Real Estate,499000,4,2.5,2217,6A
+North Oak Park Real Estate,525000,4,2.5,2217,6A
+North Oak Park Real Estate,599900,4,3.0,2537,6A
+North Oak Park Real Estate,389000,3,2.0,1198,6A
+North Oak Park Real Estate,225000,0,0.0,0,6A
+North Oak Park Real Estate,1099000,4,4.0,2000,6A
+North Oak Park Real Estate,225000,0,0.0,0,6A
+Tahoe Park Real Estate,499000,3,2.0,1271,6B
+Tahoe Park Real Estate,435000,2,1.0,1061,6B
+Tahoe Park Real Estate,499800,4,3.0,2350,6B
+Tahoe Park Real Estate,409000,2,1.0,879,6B
+Tahoe Park South Real Estate,449000,3,2.5,1706,6B
+Tahoe Park South Real Estate,1170000,4,4.0,3000,6B
+Elmhurst Real Estate,460000,3,2.0,1153,6B
+Elmhurst Real Estate,748500,3,2.0,1814,6B
+Elmhurst Real Estate,175000,0,0.0,0,6B
+Elmhurst Real Estate,419000,1,1.0,360,6B
+Elmhurst Real Estate,775000,3,3.0,2200,6B
+Elmhurst Real Estate,645500,3,1.0,1433,6B
+Elmhurst Real Estate,549888,2,1.0,911,6B
+Elmhurst Real Estate,899000,3,2.0,1840,6B
+Elmhurst Real Estate,1024900,4,3.0,2400,6B
+Tallac Village Real Estate,309900,3,1.0,1039,6B
+Fruitridge Manor Real Estate,1200000,0,0.0,0,6B
+Fruitridge Manor Real Estate,304000,3,2.0,1759,6B
+Fruitridge Manor Real Estate,305000,3,1.0,1060,6B
+Fruitridge Manor Real Estate,275000,2,1.0,720,6B
+Lawrence Park Real Estate,282000,3,1.0,1175,6B
+Lawrence Park Real Estate,279000,2,1.0,811,6B
+Tahoe Park East Real Estate,389000,3,1.0,1067,6C
+Colonial Manor Real Estate,239900,3,1.0,905,6C
+Colonial Manor Real Estate,479000,0,0.0,0,6C
+Colonial Village Real Estate,220000,3,1.0,1018,6C
+Colonial Village Real Estate,278800,3,1.0,1093,6C
+Avondale Real Estate,362000,3,2.0,1428,6C
+Avondale Real Estate,372000,3,2.0,1453,6C
+Avondale Real Estate,204250,3,1.0,942,6C
+Avondale Real Estate,1200000,5,4.0,2548,6C
+East Sacramento Real Estate,599900,3,2.0,1300,6D
+East Sacramento Real Estate,875000,5,3.5,3099,6D
+East Sacramento Real Estate,480000,3,2.0,1444,6D
+East Sacramento Real Estate,998000,4,3.5,2474,6D
+East Sacramento Real Estate,599000,2,2.0,1726,6D
+East Sacramento Real Estate,795000,4,3.0,2490,6D
+East Sacramento Real Estate,569000,3,1.0,1341,6D
+East Sacramento Real Estate,959000,3,3.5,2293,6D
+East Sacramento Real Estate,895000,3,2.5,1976,6D
+East Sacramento Real Estate,1895000,4,3.0,2581,6D
+East Sacramento Real Estate,1075000,4,3.0,2718,6D
+East Sacramento Real Estate,875000,4,3.5,2007,6D
+East Sacramento Real Estate,987000,4,3.5,2443,6D
+East Sacramento Real Estate,749900,4,3.0,2007,6D
+East Sacramento Real Estate,829950,4,3.0,2497,6D
+East Sacramento Real Estate,1195000,5,2.0,2268,6D
+East Sacramento Real Estate,1750000,4,3.0,2650,6D
+East Sacramento Real Estate,1042000,3,4.0,2302,6D
+East Sacramento Real Estate,799888,3,3.0,1902,6D
+East Sacramento Real Estate,549900,3,2.5,1288,6D
+Alhambra Triangle Real Estate,649990,2,3.5,1828,6D
+Alhambra Triangle Real Estate,579990,2,3.5,1792,6D
+Alhambra Triangle Real Estate,798888,4,3.0,2030,6D
+Alhambra Triangle Real Estate,579990,2,3.5,1792,6D
+Alhambra Triangle Real Estate,569990,2,2.5,1450,6D
+Alhambra Triangle Real Estate,604990,2,2.5,1450,6D
+Alhambra Triangle Real Estate,614990,2,2.5,1450,6D
+Alhambra Triangle Real Estate,579900,3,3.5,1792,6D
+Alhambra Triangle Real Estate,589900,2,2.5,1450,6D
+River Park Real Estate,649900,3,2.0,1360,6E
+River Park Real Estate,599000,3,1.5,1337,6E
+River Park Real Estate,678000,3,2.0,1999,6E
+River Park Real Estate,619500,4,2.0,1830,6E
+Campus Commons Real Estate,379000,2,1.0,1072,6E
+Campus Commons Real Estate,449900,2,2.5,1623,6E
+Campus Commons Real Estate,450000,2,2.5,1748,6E
+Campus Commons Real Estate,449900,2,2.5,1748,6E
+Campus Commons Real Estate,474920,3,2.5,1986,6E
+Campus Commons Real Estate,495000,3,2.5,2137,6E
+Campus Commons Real Estate,695000,3,2.5,1954,6E
+College-Glen Real Estate,379000,3,2.0,1316,6E
+College-Glen Real Estate,50000,2,2.0,576,6E
+College-Glen Real Estate,89000,3,2.0,1790,6E
+College-Glen Real Estate,60000,2,1.0,720,6E
+College-Glen Real Estate,424900,3,2.0,1411,6E
+College-Glen Real Estate,239000,2,1.5,1014,6E
+College-Glen Real Estate,425000,4,2.0,1649,6E
+College-Glen Real Estate,429000,4,2.0,1634,6E
+College-Glen Real Estate,439500,4,2.0,1763,6E
+College-Glen Real Estate,270000,3,1.5,1191,6E
+College-Glen Real Estate,430000,3,2.0,1880,6E
+College-Glen Real Estate,444950,4,3.0,1764,6E
+Sierra Oaks Real Estate,419000,3,3.0,1776,6E
+Sierra Oaks Real Estate,575000,3,3.5,1988,6E
+Sierra Oaks Real Estate,588000,3,2.5,1991,6E
+Sierra Oaks Real Estate,464999,3,3.0,1829,6E
+Sierra Oaks Real Estate,434900,3,2.5,1876,6E
+Sierra Oaks Real Estate,785000,5,3.0,2748,6E
+Sierra Oaks Real Estate,419999,2,2.5,1834,6E
+Sierra Oaks Real Estate,419000,2,2.0,1321,6E
+Sierra Oaks Real Estate,2495000,5,5.0,6211,6E
+Sierra Oaks Real Estate,675000,4,2.5,2085,6E
+Sierra Oaks Real Estate,785000,2,3.0,1953,6E
+Sierra Oaks Real Estate,428000,2,2.5,1834,6E
+Sierra Oaks Real Estate,2250000,5,4.0,4478,6E
