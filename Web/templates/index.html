@@ -36,6 +36,8 @@
 
     <title>Good Neighbor Sacramento</title>
 
+    <!-- <button onclick="download_csv()">Download CSV</button> -->
+
 </head>
 
 <body>
@@ -82,22 +84,21 @@
 
                     <div class="row justify-content-center">
                         
+                            
                             <div class="col-md-2" style="padding-left:20px">
-                                
                                 <img src="../static/img/neighbor.png" width="100%"/>
-                                <img src="../static/img/delivery.png"/>
-                            </div>    
+                                <!-- <img src="../static/img/delivery.png"/> -->
+                            </div>
 
                             <!-- <div class="col-md-3" id="safetyranking"></div> -->
                             <div class="col-md-3">
                                 <div class="card">
                                     <div class="card-body">
                                     <blockquote class="blockquote mb-0">
-                                        <h3>Hi! I'm your neighbor. You look like you're new here?</h3>
-                                        <p>I want to introduce you to some of my friends to give you some ideas about our neighborhood</p>
-                                        <p>By the way, if you have some time, I might need your help with some computer issues... but we can talk about that later. Good luck!</p>
-
-                                        <h3>Sunday - 3PM </h3>
+                                        <h3>Hi! I'm your neighbor.<br>You look like you're new here?</h3>
+                                        <br>
+                                        <p>I'd like to introduce you to some of my friends to give you some ideas about our neighborhood.</p>
+                                        <p>By the way, if you have some time, I might need your help with some computer issues... but we can talk about that later. Have fun browsing!</p>
                                         <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
                                     </blockquote>
                                     </div>
@@ -112,30 +113,149 @@
                             </div>
 
                             
-
-                            <div class="col-md-4" >
-                                <h3>Real Estate Values</h3>
-                                <br>
-                                <img src="../static/img/dwight.jpg" width="30%" style="text-align:left; display:inline-block; vertical-align: top;"/>
+                            <div class="col-md-4 row text-right" >
+                                
+                                <div class="col-md-5 text-center" >
+                                    <h4>Real Estate Values</h4>
+                                    <img src="../static/img/dwight.jpg" class="img-fluid" style="max-width: 100%; height: auto;">
+                                </div>
+                                
                                 
 
-                                <div style="display:inline-block; text-align:right !important">
-                                    <h5>Area ZIP Codes:</h5>
-                                    <p id="zipcodes"></p>
+                                <div class="col-md-6 text-center">
 
-                                    <br>
-
-                                    <h5>Median listing price of homes:</h5>
+                                    <h5>Median listing price of homes within district</h5>
                                     <h1 id="listingprice"></h1>
-                                    
                                     <br>
+                                    <!-- <h5>Avg days in the market:</h5> -->
+                                	<h1 id="daysinmarket"></h1>
+                                    
+                                    <h5>Home Value Estimator:</h5>
+                                    <form class="col-md-12">
+                                        <div class="row justify-content-center">
+                                                <label for="neighborhood">Select a neighborhood</label>
+                                                <select class="form-control" id="neighborhood">
+                                                </select>
+                                        </div>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="beds">Beds</label>
+                                                <input type="number" class="form-control" id="beds" value="3" min="1">
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="baths">Baths</label>
+                                                <input type="number" class="form-control" step=".5" id="baths" value="2" min="1">
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-center">
+                                                
+                                                <button type="button" class="btn btn-primary" onclick="pass_values();">Generate Estimated Price</button>
+                                        </div>
+                                        <br>
+                                        <div class="row justify-content-center">
+                                            <h3><span id="listingprice2"></span></h3>
+                                        </div>
+                                    </form> 
+                                      
+                                    
 
-                                    <h5>Avg days in the market:</h5>
-                                    <h1 id="daysinmarket"></h1>
-                                
                                 </div>
                                 
                             </div>
+
+                            <div class="container mb-5 mt-5">
+                                <div class="crime card-deck flex-column flex-md-row mb-3">
+
+                                    <div class="card card-crime shadow text-center px-3 mb-4">
+                                        <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Monday</span>
+                                        <div class="bg-transparent card-header pt-4 border-0">
+                                            <h1 class="h1 font-weight-normal text-primary text-center mb-0">🤨<span class="h6 text-muted ml-2">/ average crime</span></h1>
+                                        </div>
+                                        <div class="card-body pt-0">
+                                            <ul class="list-unstyled mb-4">
+                                                <li>Predicted Crime:</li>
+                                                <li>Grand Theft Auto</li>
+                                                <li>Time of Crime:</li>
+                                                <li>7pm</li>
+                                                <li>Crime Count:</li>
+                                                <li>20</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-outline-secondary mb-3">Click for Details</button>
+                                        </div>
+                                    </div>
+                                    <div class="card card-crime high-frequency shadow text-center px-3 mb-4">
+                                        <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Tuesday</span>
+                                        <div class="bg-transparent card-header pt-4 border-0">
+                                            <h1 class="h1 font-weight-normal text-primary text-center mb-0">😁<span class="h6 text-muted ml-2">/ low crime</span></h1>
+                                        </div>
+                                        <div class="card-body pt-0">
+                                            <ul class="list-unstyled mb-4">
+                                                <li>Predicted Crime:</li>
+                                                <li>Robbery</li>
+                                                <li>Time of Crime:</li>
+                                                <li>2:30pm</li>
+                                                <li>Crime Count:</li>
+                                                <li>10</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-outline-secondary mb-3">Click for Details</button>
+                                        </div>
+                                    </div>
+                                    <div class="card card-crime shadow text-center px-3 mb-4">
+                                        <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Wednesday</span>
+                                        <div class="bg-transparent card-header pt-4 border-0">
+                                            <h1 class="h1 font-weight-normal text-primary text-center mb-0">😖<span class="h6 text-muted ml-2">/ high crime</span></h1>
+                                        </div>
+                                        <div class="card-body pt-0">
+                                            <ul class="list-unstyled mb-4">
+                                                <li>Predicted Crime:</li>
+                                                <li>Burglary</li>
+                                                <li>Time of Crime:</li>
+                                                <li>2-3pm</li>
+                                                <li>Crime Count:</li>
+                                                <li>40</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-outline-secondary mb-3">Click for Details</button>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card card-crime shadow text-center px-3 mb-4">
+                                        <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Thursday</span>
+                                        <div class="bg-transparent card-header pt-4 border-0">
+                                            <h1 class="h1 font-weight-normal text-primary text-center mb-0">😁<span class="h6 text-muted ml-2">/ low crime</span></h1>
+                                        </div>
+                                        <div class="card-body pt-0">
+                                            <ul class="list-unstyled mb-4">
+                                                <li>Predicted Crime:</li>
+                                                <li>Larceny</li>
+                                                <li>Time of Crime</li>
+                                                <li>4-5pm</li>
+                                                <li>Crime Count:</li>
+                                                <li>10</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-outline-secondary mb-3">Click for Details</button>
+                                        </div>
+                                    </div>
+                                    <div class="card card-crime shadow text-center px-3 mb-4">
+                                        <span class="h6 w-60 mx-auto px-4 py-1 rounded-bottom bg-primary text-white shadow-sm">Friday</span>
+                                        <div class="bg-transparent card-header pt-4 border-0">
+                                            <h1 class="h1 font-weight-normal text-primary text-center mb-0">😁<span class="h6 text-muted ml-2">/ low crime</span></h1>
+                                        </div>
+                                        <div class="card-body pt-0">
+                                            <ul class="list-unstyled mb-4">
+                                                <li>Predicted Crime:</li>
+                                                <li>Larceny</li>
+                                                <li>Time of Crime</li>
+                                                <li>4-5pm</li>
+                                                <li>Crime Count:</li>
+                                                <li>10</li>
+                                            </ul>
+                                            <button type="button" class="btn btn-outline-secondary mb-3">Click for Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
                             
                                 
                                 
@@ -183,7 +303,6 @@
         </div>
     </div>
 
-
 </div>
 
 
@@ -197,7 +316,6 @@
 <script type="text/javascript" src="../static/js/crime.js"></script>
 <script type="text/javascript" src="../static/js/choropleth.js"></script>
 <script type="text/javascript" src="../static/js/choroplethmap.js"></script>
-
 
 
 <!-- JS animatedModal -->
