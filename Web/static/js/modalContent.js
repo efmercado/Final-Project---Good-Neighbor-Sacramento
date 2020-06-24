@@ -7,6 +7,10 @@ function modalContentChange(district){
 
   // document.getElementById("zipcodes").innerHTML = "";
   document.getElementById("listingprice").innerHTML = "";
+  document.getElementById("listingprice2").innerHTML = "";
+  var element = document.getElementById("listingprice2");
+  element.classList.remove("alert");
+  element.classList.remove("alert-dark");
   $('#neighborhood').empty();
   document.getElementById("daysinmarket").innerHTML = "";
   
@@ -50,7 +54,12 @@ function modalContentChange(district){
                   .append("h5").text('#' + topCounter + ' Beat ' + beatCrimeCount2[i][j][1] + ' - ' + beatInfo[0].neighborhood);
 
                   d3.select('#safetyranking2')
+                  .append("p").text('Med. Household Income: $' + beatInfo[0].median_household_income);
+
+                  d3.select('#safetyranking2')
                   .append("h6").text('Crime Count : ' + beatCrimeCount2[i][1]);
+                  
+                  
 
                 }
               }
@@ -225,6 +234,10 @@ function pass_values() {
         }
   
         document.getElementById("listingprice2").innerHTML = `$${numberWithCommas(data.toFixed(2))} `;
+
+        var element = document.getElementById("listingprice2");
+        element.classList.add("alert");
+        element.classList.add("alert-dark");
   
         console.log(data);
           // var reply=data.reply;

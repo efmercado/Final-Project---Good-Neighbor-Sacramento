@@ -115,7 +115,6 @@
                             
                             <div class="col-md-4 row text-right" >
                                 
-                                <!-- <img src="../static/img/dwight.jpg" width="30%" style="text-align:left; display:inline-block; vertical-align: top;"/> -->
                                 <div class="col-md-5 text-center" >
                                     <h4>Real Estate Values</h4>
                                     <img src="../static/img/dwight.jpg" class="img-fluid" style="max-width: 100%; height: auto;">
@@ -123,7 +122,7 @@
                                 
                                 
 
-                                <div class="col-md-6">
+                                <div class="col-md-6 text-center">
 
                                     <h5>Median listing price of homes within district</h5>
                                     <h1 id="listingprice"></h1>
@@ -134,22 +133,27 @@
                                     <h5>Home Value Estimator:</h5>
                                     <form class="col-md-12">
                                         <div class="row justify-content-center">
-                                                <label for="neighborhood">Select a neighborhood:</label>
+                                                <label for="neighborhood">Select a neighborhood</label>
                                                 <select class="form-control" id="neighborhood">
                                                 </select>
                                         </div>
                                         <div class="row justify-content-center">
+                                            <div class="col-md-6 mb-3">
                                                 <label for="beds">Beds</label>
-                                                <input type="number" class="form-control" id="beds" value="3">
+                                                <input type="number" class="form-control" id="beds" value="3" min="1">
+                                            </div>
+                                            <div class="col-md-6 mb-3">
                                                 <label for="baths">Baths</label>
-                                                <input type="number" class="form-control" step=".5" id="baths" value="2">
+                                                <input type="number" class="form-control" step=".5" id="baths" value="2" min="1">
+                                            </div>
                                         </div>
                                         <div class="row justify-content-center">
-                                                <br><br>
-                                                <button type="button" class="btn btn-primary" onclick="pass_values();">Generate</button>
+                                                
+                                                <button type="button" class="btn btn-primary" onclick="pass_values();">Generate Estimated Price</button>
                                         </div>
+                                        <br>
                                         <div class="row justify-content-center">
-                                            <h5>Estimated price: <span id="listingprice2"></span></h5>
+                                            <h3><span id="listingprice2"></span></h3>
                                         </div>
                                     </form> 
                                       
