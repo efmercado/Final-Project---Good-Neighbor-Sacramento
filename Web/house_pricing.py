@@ -17,9 +17,9 @@ from sklearn.model_selection import GridSearchCV
 def predict_house_value():
 
     # Load the Boston housing dataset
-    data = pd.read_csv('rdc_realestate_historial_data.csv')
-    prices = data['median_listing_price']
-    features = data.drop('median_listing_price', axis = 1)
+    data = pd.read_csv('../Data/real_estate.csv')
+    prices = data['price']
+    features = data[['beds','baths','square feet']]
         
     # Success
     print("Sacramento housing dataset has {} data points with {} variables each.".format(*data.shape))
