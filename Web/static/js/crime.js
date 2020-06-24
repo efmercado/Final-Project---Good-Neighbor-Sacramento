@@ -462,6 +462,50 @@ function heatMapChart(crimeData) {
         return crimeCountArr
     })
 
+    console.log(crimeCountArr)
+    
+    // Determine Top 3 Hours Crimes Occur Each Day
+    // Group Array of JavaScript Objects by Day
+    var Monday = crimeCountArr.filter(function(d) {
+        return d[0] == "Mon"
+    })
+
+    var Tuesday = crimeCountArr.filter(function(d) {
+        return d[0] == "Tue"
+    })
+
+    var Wednesday = crimeCountArr.filter(function(d) {
+        return d[0] == "Wed"
+    })
+
+    var Thursday = crimeCountArr.filter(function(d) {
+        return d[0] == "Thu"
+    })
+
+    var Friday = crimeCountArr.filter(function(d) {
+        return d[0] == "Fri"
+    })
+
+    var Saturday = crimeCountArr.filter(function(d) {
+        return d[0] == "Sat"
+    })
+
+    var Sunday = crimeCountArr.filter(function(d) {
+        return d[0] == "Sun"
+    })
+
+    // const groupBy = key => array =>
+    //     array.reduce((objectsByKeyValue, obj) => {
+    //         const value = obj[key];
+    //         objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
+    //         return objectsByKeyValue;
+    //     }, {});
+
+    // const groupByDay = groupBy([0])
+    // var crimesByDay= groupByDay(crimeCountArr)
+
+    console.log("Monday Crimes", Monday)
+
     // Labels for x and y axis
     var myVars = ["Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue"]
     var myGroups = ["12am", "01am", "02am", "03am", "04am", "05am", "06am", "07am", "08am", "09am",
