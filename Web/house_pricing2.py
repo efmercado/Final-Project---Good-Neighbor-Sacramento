@@ -14,13 +14,13 @@ from sklearn.model_selection import GridSearchCV
 
 # Pretty display for notebooks
 # get_ipython().run_line_magic('matplotlib', 'inline')
-def predict_house_value():
+def predict_house_value(a,b,c):
 
     # Load the Boston housing dataset
     data = pd.read_csv('../Data/real_estate.csv')
 
     # data =  data['beat']=='1A'
-    data = data[data['beat']!='1A']
+    data = data[data['beat']!=a]
 
     prices = data['price']
     features = data[['beds','baths','square feet']]
@@ -163,7 +163,7 @@ def predict_house_value():
 
 
     # Produce a matrix for client data
-    client_data = [[5, 17, 15]]  # Client 3
+    client_data = [[b, c, 15]]  # Client 3
 
     # Show predictions
     for i, price in enumerate(reg.predict(client_data)):

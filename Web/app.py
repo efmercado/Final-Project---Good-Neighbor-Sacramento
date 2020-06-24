@@ -1,8 +1,10 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, render_template, jsonify, request
 
 # Import our pymongo library, which lets us connect our Flask app to our Mongo database.
 import pymongo
 import json
+import requests
+import sys
 
 import pandas as pd
 import numpy as np
@@ -10,6 +12,7 @@ from bson.json_util import dumps
 from pprint import pprint
 
 import house_pricing
+import house_pricing2
 
 
 # Create an instance of our Flask app.
@@ -26,7 +29,7 @@ db = client.realestate_db
 
 # Drops collection if available to remove duplicates
 db.realestate.drop()
-df = pd.read_csv("./static/data/rdc_realestate_historial_data.csv")
+df = pd.read_csv("../Data/real_estate.csv")
 data_json = json.loads(df.to_json(orient='records'))
 db.realestate.insert_many(data_json)
 
@@ -38,7 +41,7 @@ db.districts.insert_many(data_json)
 
 # Drops collection if available to remove duplicates
 db.districts_zip.drop()
-df = pd.read_csv("./static/data/sacramento_neighborhoods.csv")
+df = pd.read_csv("./static/data/districts_beats.csv")
 data_json = json.loads(df.to_json(orient='records'))
 db.districts_zip.insert_many(data_json)
 
@@ -84,6 +87,30 @@ def districtsZip_data():
     record = list(db.districts_zip.find())
 
     return dumps(record)
+
+@app.route('/pass_val', methods=["GET", "POST"])
+def pass_val():
+    beat = request.args.get('beat')
+    beds = request.args.get('beds')
+    baths = request.args.get('baths')
+
+    values = [beat,beds,baths]
+    print(beat)
+    data = house_pricing2.predict_house_value(beat,beds,baths)
+    print (beds)
+    print (data)
+    print (values)
+    print (str(data))
+
+    my_json_data = json.dumps(values)
+    # return (data)
+    return (str(data))
+    # data = house_pricing.predict_house_value()
+    
+
+
+    # return dumps(data)
+
 
 
 if __name__ == "__main__":
