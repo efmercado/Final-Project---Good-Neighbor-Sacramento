@@ -294,40 +294,6 @@ function crimeLineGraph(crimeData){
 
 }
 
-function download_csv() {
-
-        // Creating a pseudo callback function to format the js datetime object 
-        const monthName = item => moment(item.Occurence_Date, 'MM/DD/YYYY').format('YYYY-MM-DD');
-        
-        // Grouping crime data by date and creating an array of offenses
-        const crimeByDate = _(crimeData)
-            .groupBy(monthName)
-            .mapValues(items => _.map(items, 'Offense_Category'))
-            .value()
-    
-        // Storing an array of arrays that hold date and offense dictionary
-        var crimeByDateArr = Object.entries(dictionary(Object.entries(crimeByDate)));
-    
-        // Creating a new array that exclusively holds date and offense count
-        var crimeCountArr = []
-        for(var i=0; i<crimeByDateArr.length; i++){
-            
-            crimeCountArr.push([crimeByDateArr[i][0], objectIter(crimeByDateArr)[i]])
-        }
-
-        var csv = 'Name, Title\n';
-        crimeCountArr.forEach(function(row) {
-            csv += row.join(',');
-            csv += "\n";
-        });
-
-        var hiddenElement = document.createElement('a');
-        hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
-        hiddenElement.target = '_blank';
-        hiddenElement.download = 'crimeCountByDay.csv';
-        hiddenElement.click()
-    }
-
 function crimeBarChart(crimeData){
 
     var svgBar = d3.select("#bar-graph").append("svg")
@@ -502,31 +468,73 @@ function heatMapChart(crimeData) {
     // Group Array of JavaScript Objects by Day
     var Monday = crimeCountArr.filter(function(d) {
         return d[0] == "Mon"
-    })
+    }).sort((a, b) => {
+        if (a[2] > b[2])
+            return -1;
+        if (a[2] < b[2])
+            return 1;
+        return 0;
+    });
 
     var Tuesday = crimeCountArr.filter(function(d) {
         return d[0] == "Tue"
-    })
+    }).sort((a, b) => {
+        if (a[2] > b[2])
+            return -1;
+        if (a[2] < b[2])
+            return 1;
+        return 0;
+    });
 
     var Wednesday = crimeCountArr.filter(function(d) {
         return d[0] == "Wed"
-    })
+    }).sort((a, b) => {
+        if (a[2] > b[2])
+            return -1;
+        if (a[2] < b[2])
+            return 1;
+        return 0;
+    });
 
     var Thursday = crimeCountArr.filter(function(d) {
         return d[0] == "Thu"
-    })
+    }).sort((a, b) => {
+        if (a[2] > b[2])
+            return -1;
+        if (a[2] < b[2])
+            return 1;
+        return 0;
+    });
 
     var Friday = crimeCountArr.filter(function(d) {
         return d[0] == "Fri"
-    })
+    }).sort((a, b) => {
+        if (a[2] > b[2])
+            return -1;
+        if (a[2] < b[2])
+            return 1;
+        return 0;
+    });
 
     var Saturday = crimeCountArr.filter(function(d) {
         return d[0] == "Sat"
-    })
+    }).sort((a, b) => {
+        if (a[2] > b[2])
+            return -1;
+        if (a[2] < b[2])
+            return 1;
+        return 0;
+    });
 
     var Sunday = crimeCountArr.filter(function(d) {
         return d[0] == "Sun"
-    })
+    }).sort((a, b) => {
+        if (a[2] > b[2])
+            return -1;
+        if (a[2] < b[2])
+            return 1;
+        return 0;
+    });
 
     // const groupBy = key => array =>
     //     array.reduce((objectsByKeyValue, obj) => {
@@ -538,7 +546,8 @@ function heatMapChart(crimeData) {
     // const groupByDay = groupBy([0])
     // var crimesByDay= groupByDay(crimeCountArr)
 
-    console.log("Monday Crimes", Monday)
+    console.log("Monday Crimes - Sorted", Monday)
+
 
     // Labels for x and y axis
     var myVars = ["Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue"]
