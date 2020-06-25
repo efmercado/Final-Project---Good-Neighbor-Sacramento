@@ -465,7 +465,7 @@ function heatMapChart(crimeData) {
     console.log(crimeCountArr)
     
     // Determine Top 3 Hours Crimes Occur Each Day
-    // Group Array of JavaScript Objects by Day
+    // Group Array of JavaScript Objects by Day, sort by time, and take top 3 times
     var Monday = crimeCountArr.filter(function(d) {
         return d[0] == "Mon"
     }).sort((a, b) => {
@@ -474,7 +474,7 @@ function heatMapChart(crimeData) {
         if (a[2] < b[2])
             return 1;
         return 0;
-    });
+    }).slice(0, 3);
 
     var Tuesday = crimeCountArr.filter(function(d) {
         return d[0] == "Tue"
@@ -484,7 +484,7 @@ function heatMapChart(crimeData) {
         if (a[2] < b[2])
             return 1;
         return 0;
-    });
+    }).slice(0, 3);
 
     var Wednesday = crimeCountArr.filter(function(d) {
         return d[0] == "Wed"
@@ -494,7 +494,7 @@ function heatMapChart(crimeData) {
         if (a[2] < b[2])
             return 1;
         return 0;
-    });
+    }).slice(0, 3);
 
     var Thursday = crimeCountArr.filter(function(d) {
         return d[0] == "Thu"
@@ -504,7 +504,7 @@ function heatMapChart(crimeData) {
         if (a[2] < b[2])
             return 1;
         return 0;
-    });
+    }).slice(0, 3);
 
     var Friday = crimeCountArr.filter(function(d) {
         return d[0] == "Fri"
@@ -514,7 +514,7 @@ function heatMapChart(crimeData) {
         if (a[2] < b[2])
             return 1;
         return 0;
-    });
+    }).slice(0, 3);
 
     var Saturday = crimeCountArr.filter(function(d) {
         return d[0] == "Sat"
@@ -524,7 +524,7 @@ function heatMapChart(crimeData) {
         if (a[2] < b[2])
             return 1;
         return 0;
-    });
+    }).slice(0, 3);
 
     var Sunday = crimeCountArr.filter(function(d) {
         return d[0] == "Sun"
@@ -534,20 +534,34 @@ function heatMapChart(crimeData) {
         if (a[2] < b[2])
             return 1;
         return 0;
-    });
-
-    // const groupBy = key => array =>
-    //     array.reduce((objectsByKeyValue, obj) => {
-    //         const value = obj[key];
-    //         objectsByKeyValue[value] = (objectsByKeyValue[value] || []).concat(obj);
-    //         return objectsByKeyValue;
-    //     }, {});
-
-    // const groupByDay = groupBy([0])
-    // var crimesByDay= groupByDay(crimeCountArr)
+    }).slice(0, 3);
 
     console.log("Monday Crimes - Sorted", Monday)
 
+    // Return top 3 times with highest crime
+    var crimeTimeMon = Monday.map(function(m) {
+        return m[1]
+    })
+    var crimeTimeTue = Tuesday.map(function(m) {
+        return m[1]
+    })
+    var crimeTimeWed = Wednesday.map(function(m) {
+        return m[1]
+    })
+    var crimeTimeThu = Thursday.map(function(m) {
+        return m[1]
+    })
+    var crimeTimeFri = Friday.map(function(m) {
+        return m[1]
+    })
+    var crimeTimeSat = Saturday.map(function(m) {
+        return m[1]
+    })
+    var crimeTimeSun = Sunday.map(function(m) {
+        return m[1]
+    })
+
+    console.log("Monday Crime Times", crimeTimeMon)
 
     // Labels for x and y axis
     var myVars = ["Wed", "Thu", "Fri", "Sat", "Sun", "Mon", "Tue"]
